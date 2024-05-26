@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Dayo Olatunbosun, index.html, 05/19/2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenwriting Website</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .hero-section {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <h1>Elevating Stories, Inspiring Creativity</h1>
+        <p>Welcome to my screenwriting world.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Dayo Olatunbosun. My journey into the world of screenwriting began with a deep love for films and an eagerness to create narratives that resonate with audiences. As an amateur, I am dedicated to honing my craft, exploring diverse genres, and bringing unique perspectives to the screen.</p>
+        <a href="#contact" class="cta-button">Contact Me</a>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        
+        <div class="portfolio-item">
+            <img src="project1-thumbnail.jpg" alt="Project 1">
+            <h3>Project 1 Title: The Lost City</h3>
+            <p>Description of Project 1: A thrilling adventure about discovering an ancient civilization hidden deep in the Amazon rainforest.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2-thumbnail.jpg" alt="Project 2">
+            <h3>Project 2 Title: A Day in Lagos</h3>
+            <p>Description of Project 2: A heartfelt drama that explores the everyday lives of people living in Lagos, Nigeria.</p>
+        </div>
+        
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Script Consulting: Providing expert feedback and advice on your screenplay.</li>
+            <li>Workshops: Interactive workshops on various aspects of screenwriting.</li>
+            <li>Script Analysis: In-depth analysis of scripts to enhance story structure and character development.</li>
+            
+        </ul>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        
+        <div class="blog-post">
+            <h3>Blog Post Title: The Art of Dialogue</h3>
+            <p>Excerpt of the blog post: Tips and tricks for writing engaging and realistic dialogue in your screenplays.</p>
+            <a href="full-blog-post.html">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post Title: Creating Compelling Characters</h3>
+            <p>Excerpt of the blog post: How to develop multi-dimensional characters that captivate your audience.</p>
+            <a href="full-blog-post.html">Read More</a>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Screenwriting Website. All rights reserved.</p>
+        <nav>
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+    </footer>
+</body>
+</html>

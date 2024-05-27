@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dayo Olatunbosun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .contact-section {
+            padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .contact-section h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-section form input,
+        .contact-section form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-section form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .contact-section form button:hover {
+            background-color: #555;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="images.html">Gallery</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-section">
+        <h1>Contact Me</h1>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: dayoolatunbosun6@gmail.com</p>
+            <p>Phone: +1 302 513 3442</p>
+            <p>Follow me on social media:
+                <a href="https://twitter.com/dayo_olatunbosun">Twitter</a>,
+                <a href="https://linkedin.com/in/dayo-olatunbosun">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Screenwriting Website. All rights reserved.</p>
+        <nav>
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+    </footer>
+</body>
+</html>

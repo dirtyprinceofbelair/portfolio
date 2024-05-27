@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Dayo Olatunbosun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .about-section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .about-section h1 {
+            text-align: center;
+            color: #333;
+        }
+        .about-section p {
+            line-height: 1.6;
+            color: #555;
+        }
+        .about-section img {
+            display: block;
+            max-width: 200px;
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="images.html">Gallery</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="about-section">
+        <h1>About Me</h1>
+        <img src="dayo-olatunbosun.jpg" alt="Dayo Olatunbosun">
+        <p>Hello, I'm Dayo Olatunbosun, an emerging screenwriter passionate about storytelling. My journey into the world of screenwriting began with a deep love for films and an eagerness to create narratives that resonate with audiences. As an amateur, I am dedicated to honing my craft, exploring diverse genres, and bringing unique perspectives to the screen.</p>
+        <p>With a background in literature and creative writing, I draw inspiration from a wide range of sources, from classic literature to contemporary cinema. I believe that every story has the power to inspire, provoke thought, and evoke a range of emotions.</p>
+        <p>In my work, I strive to create characters that are authentic and relatable, and to craft plots that are engaging and thought-provoking. I am constantly learning and growing as a writer, and I am excited to share my journey with you.</p>
+        <p>When I'm not writing, I enjoy watching movies, reading books, and exploring the vibrant culture and history of my hometown, Lagos, Nigeria. Thank you for visiting my website, and I look forward to connecting with you!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Screenwriting Website. All rights reserved.</p>
+        <nav>
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+    </footer>
+</body>
+</html>

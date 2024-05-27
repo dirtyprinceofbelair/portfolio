@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Screenwriting Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item h3 {
+            margin: 15px;
+            color: #333;
+        }
+        .gallery-item p {
+            margin: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="images.html">Gallery</a>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <h1>Image Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="project1-image.jpg" alt="Project 1 Image">
+            <h3>Project 1: The Lost City</h3>
+            <p>A thrilling adventure about discovering an ancient civilization hidden deep in the Amazon rainforest.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.google.com/imgres?q=lagos%2C%20nigeria&imgurl=https%3A%2F%2Fi.natgeofe.com%2Fn%2F8322bcaf-d02f-4fed-890e-6e7f44b7e1c2%2F_45A9746.jpg&imgrefurl=https%3A%2F%2Fwww.nationalgeographic.com%2Fmagazine%2Farticle%2Flagos-nigeria-africas-first-city&docid=9GQ4ng_7yY0LjM&tbnid=ccrQzr9NlP6LtM&vet=12ahUKEwi9w6vO06yGAxWAEFkFHblqDYwQM3oECGIQAA..i&w=3072&h=2048&hcb=2&ved=2ahUKEwi9w6vO06yGAxWAEFkFHblqDYwQM3oECGIQAA" alt="Project 2 Image">
+            <h3>Project 2: A Day in Lagos</h3>
+            <p>A heartfelt drama that explores the everyday lives of people living in Lagos, Nigeria.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="project3-image.jpg" alt="Project 3 Image">
+            <h3>Project 3: The Art of Dialogue</h3>
+            <p>Tips and tricks for writing engaging and realistic dialogue in your screenplays.</p>
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Screenwriting Website. All rights reserved.</p>
+        <nav>
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+    </footer>
+</body>
+</html>
+https://www.google.com/imgres?q=famousdayo%20tiktok&imgurl=https%3A%2F%2Fp16-pu-sign-useast8.tiktokcdn-us.com%2Ftos-useast8-avt-0068-tx2%2F3c9472aeb3365b6ffd972cb9c1d2591c~c5_720x720.jpeg%3Flk3s%3Da5d48078%26x-expires%3D1713686400%26x-signature%3DHSmnDoJgJc%252F4%252B8OLPCATpdAOb2k%253D&imgrefurl=https%3A%2F%2Fwww.tiktok.com%2F%40potentateofpeace%2Fvideo%2F6849450402715340037&docid=LIoHD_LNhAlcQM&tbnid=0X03y41kshPYwM&vet=12ahUKEwiI462v1ayGAxVzElkFHTTDBUwQM3oECG0QAA..i&w=720&h=720&hcb=2&itg=1&ved=2ahUKEwiI462v1ayGAxVzElkFHTTDBUwQM3oECG0QAA
